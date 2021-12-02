@@ -1,0 +1,177 @@
+body{
+
+    font-family: tahoma,Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin: auto;
+    border-width: thin;
+    
+    
+}
+
+#principal{
+
+    width: 1024px;
+    margin:auto;
+    margin-top: 20px;
+    
+    
+}
+
+.header-top{
+
+    height: 50px;
+
+    background: #162028;
+    position: relative;
+
+}
+.header-nav{
+
+    position: absolute;
+    top:0;
+    right: 0;
+    
+    position: absolute;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.header-nav li{
+    display:inline-block;
+    font-size: 12px;
+    color: rgb(84, 82, 105);
+    letter-spacing: 2px;
+    margin-right: 28px;
+    text-transform: uppercase;
+}
+.header-nav a{
+
+    text-decoration: none;
+    color: rgb(82, 82, 85);
+    font-size: 10px;
+}
+
+
+    
+
+.header-top img{
+    margin-top: 8px;
+    margin-left: 180px;
+}
+
+article h1{
+
+    text-align: center;
+    margin-top: 80px;
+    font-size: 35px;
+}
+
+article .text1{
+
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0px;
+}
+
+.galeria{
+    color: white;
+    padding: 0px 100px 50px 100px;
+    
+    overflow: auto;
+    margin-top: 90px;
+}
+
+.galeria-card{
+    width: 33%;
+    float:left;
+    text-align: center;
+}
+
+.galeria-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgb(66, 66, 66);
+    letter-spacing: 4px;
+}
+
+.galeria-text{
+    font-size: 16px;
+    color: rgb(133, 130, 130);
+    margin-top: -10px;
+}
+
+.about{
+
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+
+}
+.about h2{
+
+    text-transform: uppercase;
+    font: size 50px;
+    font-weight: normal;
+}
+.about p{
+
+    
+    width: 70%;
+}
+
+.contact{
+
+    margin: 50px 0;
+    color: #143f52;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bolder;
+}
+.mapa{
+
+    width: 100px;
+    height: 450px;
+    margin-top: 30px;
+    padding: auto;
+    justify-content: center;
+    
+}
+
+.mapa iframe{
+
+    width: 1024%;
+}
+
+#contact{
+
+text-align: center;
+margin-top: 30px;
+text-transform: uppercase;
+color: black;
+}
+
+.rodape{
+
+    text-align: center;
+    
+    background-color: rgb(1, 1, 26);
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-top: 20px;
+}
+
+.link :hover{
+    color: rgb(245, 243, 250);
+    transition: color .3s linear
+}
